@@ -2,8 +2,14 @@
   "name": "vite-plugin-svmg",
   "type": "module",
   "version": "0.0.1",
-  "description": "replace img with svg",
+  "description": "a vite plugin replaces img tags with svg content when the src attribute points to an SVG file and suppor theme color change",
   "author": "yeling5 <yelinggogo@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ylw5/vite-plugin-svmg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ylw5/vite-plugin-svmg"
+  },
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
