@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-svmg",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a vite plugin replaces img tags with svg content when the src attribute points to an SVG file and suppor theme color switch",
   "author": "yeling5 <yelinggogo@gmail.com>",
   "license": "MIT",
