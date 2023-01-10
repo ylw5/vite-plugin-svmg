@@ -29,7 +29,7 @@ export default defineConfig({
   ]
 })
 ```
-In your component:
+Your component:
 ```vue
 <template>
   <div>

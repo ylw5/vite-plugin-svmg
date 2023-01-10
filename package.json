@@ -2,7 +2,7 @@
   "name": "vite-plugin-svmg",
   "type": "module",
   "version": "0.0.1",
-  "description": "a vite plugin replaces img tags with svg content when the src attribute points to an SVG file and suppor theme color change",
+  "description": "a vite plugin replaces img tags with svg content when the src attribute points to an SVG file and suppor theme color switch",
   "author": "yeling5 <yelinggogo@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/ylw5/vite-plugin-svmg",
@@ -13,12 +13,12 @@
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.js"
     }
   },
-  "main": "dist/index.cjs",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -26,11 +26,10 @@
     "build": "tsup"
   },
   "dependencies": {
-    "vue": "^3.2.45"
+    "@types/node": "^18.11.18"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.34.0",
-    "@types/node": "^18.11.18",
     "eslint": "^8.31.0",
     "tsup": "^6.5.0",
     "typescript": "^4.9.3",

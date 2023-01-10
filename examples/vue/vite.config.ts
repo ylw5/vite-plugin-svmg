@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import themeImg from '../../src'
+import svmg from 'vite-plugin-svmg'
 
 export default defineConfig({
   plugins: [
     vue(),
-    themeImg({
+    svmg({
       color: {
         root: {
           white: '#1d1d1d',
